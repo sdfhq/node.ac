@@ -7,17 +7,17 @@ header: 一家服务于早期科技创业项目的专业孵化器
 secondary: 聚焦于移动互联网及智能硬件领域
 
 members:
+  - name: 唐凌
+    intro: Node区块链加速器联合发起人。纸贵科技创始人&CEO，Ink Labs基金会主席，Jenga Blockchain Capital管理合伙人，APEC未来学院顾问委员会委员。
+    avatar: 
   - name: 李晋
-    email: lijin.paul@gmail.com
-    wechat: pauljinli
+    intro: Node区块链加速器联合发起人 & 执行董事。闪电孵化器创始人，陕西创新创业联盟副秘书长，西安电子科技大学软件学院教师。曾孵化、投资或联合创办多家企业，包括3个“小米生态链”企业，并5次入选代表中国青年参加冬季及夏季“达沃斯论坛”。
     avatar: 
-  - name: 何川
-    email: 5515630@qq.com
-    wechat: oscarwin
+  - name: 宣松涛
+    intro: Node区块链加速器联合发起人。纸贵科技联合创始人。
     avatar: 
-  - name: 杨杰
-    email: 83765913@qq.com
-    wechat: yj799930
+  - name: 赵晓楠
+    intro: Node区块链加速器联合发起人 & CTO。前华为云计算工程师。
     avatar: 
 
 ---

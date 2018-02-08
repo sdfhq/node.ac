@@ -1,0 +1,157 @@
+---
+layout: default
+title: 关于我们
+permalink: /about/
+cover: about_us.jpg
+
+members:
+  - name: 唐凌
+    intro: Node区块链加速器联合发起人。纸贵科技创始人&CEO，Ink Labs基金会主席，Jenga Blockchain Capital管理合伙人，APEC未来学院顾问委员会委员。
+    avatar: 
+  - name: 李晋
+    intro: Node区块链加速器联合发起人 & 执行董事。闪电孵化器创始人，陕西创新创业联盟副秘书长，西安电子科技大学软件学院教师。曾孵化、投资或联合创办多家企业，包括3个“小米生态链”企业，并5次入选代表中国青年参加冬季及夏季“达沃斯论坛”。
+    avatar: 
+  - name: 宣松涛
+    intro: Node区块链加速器联合发起人。纸贵科技联合创始人。
+    avatar: 
+  - name: 赵晓楠
+    intro: Node区块链加速器联合发起人 & CTO。前华为云计算工程师。
+    avatar: 
+
+partners:
+  - name: 纸贵科技
+    logo: partner-zhigui.png
+    link: 
+  - name: 纸贵科技
+    logo: partner-zhigui.png
+    link: 
+  - name: 纸贵科技
+    logo: partner-zhigui.png
+    link: 
+  - name: 纸贵科技
+    logo: partner-zhigui.png
+    link: 
+  - name: 纸贵科技
+    logo: partner-zhigui.png
+    link: 
+  - name: 纸贵科技
+    logo: partner-zhigui.png
+    link: 
+  - name: 纸贵科技
+    logo: partner-zhigui.png
+    link: 
+  - name: 纸贵科技
+    logo: partner-zhigui.png
+    link: 
+  - name: 纸贵科技
+    logo: partner-zhigui.png
+    link: 
+  - name: 纸贵科技
+    logo: partner-zhigui.png
+    link: 
+  
+
+---
+
+<div class="banner" {% if page.cover != null %} style="background-image: url({{ page.cover | prepend: site.qiniu_upload }})" {% endif %} >
+	  <div class="banner-content">
+	  </div>
+	</div>
+
+<div class="fluid-container">
+    <section class="section-even">
+      <div class="container">
+        <h3 class="section-title center">Node 是谁？</h3>
+        <hr>
+        <div class="secbody center">
+          <p><b>Node区块链加速器</b> 是专注于区块链的专业型创新孵化机构。</p>
+          <p>由纸贵科技和闪电孵化器联合发起，总部位于西安。致力于区块链技术研究、人才培养、技术社区运营、创新创业孵化/加速及投资。</p>
+          <p>- 图：场地照片-目前在建，缺</p>
+          <p>- 图：省级众创空间牌匾</p>
+          <p>主基地位于西安市碑林区南二环西段西安创新设计中心22层。</p>
+          <p>目前已与西安交通大学、西安电子科技大学等高校建立联合实验室，并与陕西省科技厅、西安环大学创新产业带等政府机构签署战略合作协议。</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-odd">
+      <div class="container">
+        <h3 class="section-title center">管理团队</h3>
+        <hr>
+        <div class="secbody row">
+          <div class="col-md-6">
+              <div class="member">
+                <h4 class="">唐凌</h4>
+                <p>Node区块链加速器联合发起人。纸贵科技创始人&CEO，Ink Labs基金会主席，Jenga Blockchain Capital管理合伙人，APEC未来学院顾问委员会委员。</p>
+              </div>
+          </div>
+          <div class="col-md-6">
+              <div class="member">
+                <h4 class="">李晋</h4>
+                <p>Node区块链加速器联合发起人 & 执行董事。闪电孵化器创始人，陕西创新创业联盟副秘书长，西安电子科技大学软件学院教师。曾孵化、投资或联合创办多家企业，包括3个“小米生态链”企业，并5次入选代表中国青年参加冬季及夏季“达沃斯论坛”。</p>
+              </div>
+          </div>
+          <div class="col-md-6">
+              <div class="member">
+                <h4 class="">唐凌</h4>
+                <p>Node区块链加速器联合发起人。纸贵科技创始人&CEO，Ink Labs基金会主席，Jenga Blockchain Capital管理合伙人，APEC未来学院顾问委员会委员。</p>
+              </div>
+          </div>
+          <div class="col-md-6">
+              <div class="member">
+                <h4 class="">李晋</h4>
+                <p>Node区块链加速器联合发起人 & 执行董事。闪电孵化器创始人，陕西创新创业联盟副秘书长，西安电子科技大学软件学院教师。曾孵化、投资或联合创办多家企业，包括3个“小米生态链”企业，并5次入选代表中国青年参加冬季及夏季“达沃斯论坛”。</p>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-even">
+      <div class="container">
+        <h3 class="sectitle center">合作伙伴</h3>
+        <hr>
+        <div class="secbody row">
+          {% for partner in page.partners %}
+              <div class="col-md-2 partner-item">
+                <img src="{{ partner.logo | prepend: site.qiniu_upload }}"/>
+              </div>
+          {% endfor %}
+        </div>
+      </div>
+    </section>
+
+    <section class="section-odd">
+      <div class="container">
+        <h3 class="section-title center">顾问委员会</h3>
+        <hr>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="member consultant">
+                  <h4 class="">沈八中</h4>
+                  <p>西安电子科技大学通信工程学院院长，“千人计划”特聘教授。前美国博通公司资深科学家、技术副总监，2008年获博通杰出工程师奖。长期从事通信编码的理论与应用的研究工作，在Turbo码和LDPC码等方面有深入研究。主持并设计了世界第一片具有高阶调制及Turbo编码技术的卫星电视机顶盒芯片；参与IEEE 802.3an(10GBaseT Ethernet)、802.11n(WiFi)、3GPP LTE、MoCA 2.0、WiGiG、802.11ad等标准制定，所设计的多个系统或技术被采纳为标准。在国际著名的期刊和会议上发表论文20余篇，拥有91项美国专利。</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="member consultant">
+                  <h4 class="">齐勇</h4>
+                  <p>西安交通大学电信学院教授，博士生导师，计算机软件与理论研究所所长。曾任计算机科学与技术系主任。获全国高等学校优秀骨干教师奖、王宽诚育才奖和容闳科技教育奖、IBM中国优秀教师奖等，享受政府津贴。兼任中国计算机学会系统软件专委会副主任，中国计算机学会信息系统专委会副主任，第13届、14届国家自然科学基金信息学部专家评审组成员，数据中心联盟大数据基准测试专家委员会委员，西安三星电子研究有限公司顾问教授，中国计算机学会理事/监事（2003-2015），陕西省计算机学会副理事长（2005-2013），教育部电子信息与电气教学指导委员会秘书长（2006-2011）。担任多个国内外学术会议的Chair及PC member，以及多个期刊编委。</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="member consultant">
+                  <h4 class="">裴庆祺</h4>
+                  <p>西安电子科技大学通信工程学院教授，博士生导师，综合业务网理论与关键技术国家重点实验室(ISN)成员，2011年入选教育部新世纪优秀人才支持计划。主要从事认知网络与数据安全、信息系统安全防护、数字版权管理、区块链等领域的研究，主持并参与了20余项国家自然基金重点项目、国家重点研发计划、国家863计划、新一代移动通信重大专项等项目。在IEEE TDSC、TIFS、TWC、TVT，ACM CCS、IEEE INFOCOM等重要期刊和会议上发表学术论文90余篇；授权国家发明专利60余项、申请国际PCT专利5项。参与制定多项标准。研究成果获2013年国家技术发明二等奖、2008年中国电子学会电子信息科学技术奖一等奖等奖项。</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="member consultant">
+                  <h4 class="">田聪</h4>
+                  <p>西安电子科技大学计算机学院教授，博士生导师，研究生院副院长。2013年获国家自然科学基金优秀青年基金和教育部新世纪优秀人才计划资助。2014年获陕西省青年科技新星称号。研究领域包括程序漏洞分析，恶意代码检测，基于大数据和机器学习的智能软件开发方法，可信软件的基础理论与方法。</p>
+                </div>
+            </div>
+        </div>
+      </div>
+    </section>
+</div>
+

@@ -1,6 +1,6 @@
-<ul class="member-list">
+<ul class="row member-list">
   {% for member in page.members %}
-    <li>
+    <li class="col-md-6">
       <div class="member">
         <div class="member-avatar">
             {% if member.avatar %}
@@ -9,8 +9,7 @@
         </div>
         <div class="member-body">
           <h3>{{ member.name }}</h3>
-          <p>Email: {{ member.email }}</p>
-          <p>微信: {{ member.wechat }}</p>
+          <p>{{ member.intro }}</p>
         </div>
       </div>
     </li>

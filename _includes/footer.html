@@ -19,4 +19,19 @@
 </footer>
 
 <script src="{{ "assets/bootstrap/js/jquery.min.js" | prepend: site.qiniu }}"></script>
-<script src="{{ "assets/bootstrap/js/bootstrap.min.js" | prepend: site.qiniu }}""></script>
+<script src="{{ "assets/bootstrap/js/bootstrap.min.js" | prepend: site.qiniu }}"></script>
+
+<script>
+	$(window).on('scroll',function(){
+			var stop = Math.round($(window).scrollTop());
+			if (stop > 0) {
+					$('.navbar').removeClass('navbar-transparent');
+					$('.navbar').removeClass('navbar-inverse');
+					$('.navbar').addClass('navbar-default');
+			} else {
+					$('.navbar').addClass('navbar-transparent');
+					$('.navbar').addClass('navbar-inverse');
+					$('.navbar').removeClass('navbar-default');
+			}
+	});
+</script>
