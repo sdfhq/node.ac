@@ -17,7 +17,7 @@ markdown: kramdown
 # 样式资源主地址
 qiniu: /
 # UGC资源地址
-qiniu_upload: http://7xkw3c.com1.z0.glb.clouddn.com/upload/
+BASE_STATIC_URL: http://p3z9u9otp.bkt.clouddn.com
 
 home_startups:
   - 卓越三维 
@@ -27,7 +27,7 @@ home_startups:
 
 # 站点信息
 slogan: 专注于区块链的专业型创新孵化机构
-qrcode: qrcode.jpg
+qrcode: /assets/img/qrcode.jpg
 
 collections:
   startup:

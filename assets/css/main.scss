@@ -3,7 +3,7 @@
 ---
 @charset "utf-8";
 
+$BASE_STATIC_URL: '{{ site.BASE_STATIC_URL }}';
+
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "zico"
-;
+@import "zico";

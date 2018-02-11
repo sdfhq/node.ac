@@ -1,0 +1,5 @@
+{
+  "src_dir" : "../assets",
+  "bucket" : "nodeac",
+  "key_prefix": "assets/"
+}

@@ -4,7 +4,7 @@
       <div class="member">
         <div class="member-avatar">
             {% if member.avatar %}
-              <img src="{{ member.avatar | prepend: site.qiniu_upload }}"/>
+              <img src="{{ member.avatar | prepend: site.BASE_STATIC_URL }}"/>
             {% endif %}
         </div>
         <div class="member-body">
