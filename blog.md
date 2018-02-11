@@ -13,13 +13,13 @@ cover: /assets/img/banner-blog.jpg
 			文章列表
 		</h2>
 	</div>
-	
+
 	<ul class="">
-	  	{% for post in site.posts %}
+		{% for post in site.posts %}
 			<li class="">
 				<span class="publish-date">{{ post.date | date: "%Y-%m-%d" }}</span>
 				<a href="{{ post.url }}">{{ post.title }}</a>
 			</li>
-	  	{% endfor %}
+		{% endfor %}
 	</ul>
 </div>
