@@ -1,5 +1,0 @@
-{
-  "src_dir" : "../uploads",
-  "bucket" : "nodeac",
-  "key_prefix": "uploads/"
-}
